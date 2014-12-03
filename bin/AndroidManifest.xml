@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beattherush"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Berkshire"
+            android:label="@string/title_activity_berkshire" >
+        </activity>
+        <activity
+            android:name=".Hampshire"
+            android:label="@string/title_activity_hampshire" >
+        </activity>
+        <activity
+            android:name=".Franklin"
+            android:label="@string/title_activity_franklin" >
+        </activity>
+        <activity
+            android:name=".Worcester"
+            android:label="@string/title_activity_worcester" >
+        </activity>
+    </application>
+
+</manifest>

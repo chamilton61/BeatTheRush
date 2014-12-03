@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.beattherush.MainScreenActivity" >
+
+    <Button
+        android:id="@+id/button_worcester"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:paddingTop="10dp"
+        android:background="#FFB347"
+        android:onClick="goToWorcester"
+        android:text="Worcester" />
+
+    <Button
+        android:id="@+id/button_franklin"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+		android:layout_weight=".3"
+        android:paddingTop="10dp"
+        android:background="#77DD77"
+        android:onClick="goToFranklin"
+        android:text="Franklin" />
+
+    <Button
+        android:id="@+id/button_hampshire"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:paddingTop="10dp"
+        android:background="#C23B22"
+        android:onClick="goToHampshire"
+        android:text="Hampshire" />
+
+    <Button
+        android:id="@+id/button_berkshire"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+		android:layout_weight=".3"
+        android:paddingTop="10dp"
+        android:background="#77DD77"
+        android:onClick="goToBerkshire"
+        android:text="Berkshire" />
+</LinearLayout>
